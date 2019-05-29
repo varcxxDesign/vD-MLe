@@ -84,7 +84,8 @@
   align-self: auto;
   font-family: 'Racing Sans One', sans-serif;
   color: #000;
-  line-height: 38px;
+  font-size: 52px;
+  line-height: 88%;
   font-weight: 400;
   letter-spacing: 1px;
 }
@@ -1198,6 +1199,81 @@
   transform-style: preserve-3d;
 }
 
+.mailing-list-signup {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 400px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.text-block-15 {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.container-4 {
+  display: block;
+  padding: 40px 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.form-block-2 {
+  width: 600px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.submit-button-2 {
+  width: 200px;
+  height: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 16px;
+  text-align: center;
+}
+
+.form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.text-field {
+  height: 60px;
+}
+
+.field-label-2 {
+  display: none;
+}
+
 @media (max-width: 991px) {
   .container-trustindicators {
     display: none;
@@ -1364,6 +1440,9 @@
   .image-6 {
     margin-right: 0px;
     margin-left: 0px;
+  }
+  .form-block-2 {
+    width: 530px;
   }
 }
 
@@ -2013,6 +2092,22 @@
     margin-top: 10px;
     padding-right: 15px;
     padding-left: 15px;
+  }
+  .form-block-2 {
+    width: 100%;
+  }
+  .submit-button-2 {
+    width: 100%;
+  }
+  .form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .text-field {
+    text-align: center;
   }
 }
 
